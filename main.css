@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: black;
+    ;
+    background-image: url(./image/bacground\ img.jpg);
+
+}
+
+.logo {
+    height: 100px;
+    padding: 24px 20px 20px 140px;
+    margin: -10px -10px 0px -10px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 33%;
+    right: 33%;
+    opacity: 1;
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.75);
+    flex-grow: calc(100%-100px);
+    border-radius: 5px;
+
+}
+
+.user-input h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    margin: -5px 0px -10px 0px;
+
+
+}
+
+.user-id input {
+    height: 55px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 5px;
+    border: solid gray 1px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.psw {
+    margin-top: 15px;
+
+}
+
+.button-sign input {
+    height: 40px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    background-color: #911219;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 20px;
+
+}
+
+.button-sign input:hover {
+    background-color: #bb282f;
+    cursor: pointer;
+}
+
+.or p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.another-way input {
+    background-color: #373431;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    height: 40px;
+    width: 100%;
+    opacity: 0.6;
+    position: relative;
+    top: -15px;
+}
+
+.another-way input:hover {
+    background-color: #636261;
+    cursor: pointer;
+}
+
+.forgot-psw a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.forgot-psw a:hover {
+    text-decoration: underline;
+    color: rgb(161, 160, 160);
+    cursor: pointer;
+}
+
+.check-box {
+    margin-top: 15px;
+
+}
+
+.check-box input {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+
+}
+
+
+.check-box label,
+.new-sign {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 10px;
+
+}
+
+.new-sign {
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.new-sign a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.new-sign a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    color: white;
+}
