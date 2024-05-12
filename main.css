@@ -11,20 +11,39 @@ body {
 
 }
 
-.logo {
+@media screen and (max-width:600px) {
+    .netflix-sign div {
+        left: 0%;
+
+
+    }
+    .logo img{
+     position: relative;
+     padding: 5px 20px 5px 20px
+      
+    }
+    .user-input div{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
+
+.logo img{
     height: 100px;
-    padding: 24px 20px 20px 140px;
+    padding: 5px 20px 5px 140px;
     margin: -10px -10px 0px -10px;
-    z-index: 1;
-    opacity: 1;
+
+
 }
 
 .user-input {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    width: 430px;
+    ;
+    position: relative;
     left: 33%;
-    right: 33%;
     opacity: 1;
     padding: 70px;
     background-color: rgba(0, 0, 0, 0.75);
